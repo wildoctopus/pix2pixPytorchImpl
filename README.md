@@ -16,7 +16,7 @@ Each image in the dataset is in JPEG format with 1200px * 600px dimensions, cont
 
 
 Sample after splitting the raw image into seperate  "Satellite" and corresponding "map" images. 
-![Sample after splitting Image](./images/plotaftersplit.png)
+![Sample after splitting Image](./images/plotaftersplit.png){ width=50% }
 
 
 ## Architectural Details
@@ -24,4 +24,4 @@ Sample after splitting the raw image into seperate  "Satellite" and correspondin
 Pix2pix architecture uses Unet architecture as a Generator and PatchGAN as a Discriminator. 
 
 
-![Generator(Unet)](./images/unet.svg){ width=50% }
+![Generator(Unet)](./images/unet.svg)
