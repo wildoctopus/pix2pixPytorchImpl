@@ -24,4 +24,4 @@ Sample after splitting the raw image into seperate  "Satellite" and correspondin
 Pix2pix architecture uses Unet architecture as a Generator and PatchGAN as a Discriminator. 
 
 
-![Generator(Unet)](./images/unet.svg){ width=70% }{ height=70% }
+![Generator(Unet)](./images/unet.svg){ width=50% }
