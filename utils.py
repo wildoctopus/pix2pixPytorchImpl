@@ -26,11 +26,13 @@ class MapDataset(Dataset):
         self.root_dir = root_dir
         self.transform = transform
         self.resize = resize
-        self.src_list = list()
-        self.tar_list = list()
+        
         self.files_list = listdir(self.root_dir)
+        self.src_list, self.tar_list = __loadimages__()
 
-    def __loadimages__(self):        
+
+    def __loadimages__(self): 
+        srclist, tarlist = list(), list()       
         # enumerate filenames in directory
         for filename in files_list:
             # load and resize the image
@@ -39,10 +41,10 @@ class MapDataset(Dataset):
             
             # split into satellite and map
             sat_img, map_img = pixels[:, :256], pixels[:, 256:]
-            self.src_list.append(sat_img)
-            self.tar_list.append(map_img)
+            self.srclist.append(sat_img)
+            self.tarlist.append(map_img)
 
-        return self.src_list, self.tar_list
+        return srclist, tarlist
 
     def __len__(self):
         return len(self.files_list)
