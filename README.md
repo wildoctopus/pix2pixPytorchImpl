@@ -7,7 +7,8 @@ How to use?
 * To train, run train.py
 
 
-#Architectural Details
+## Architectural Details
+--------------------------
 Pix2pix architecture uses Unet architecture as a Generator and PatchGAN as a Discriminator. 
 
 
