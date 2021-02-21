@@ -9,11 +9,13 @@ How to use?
 ## Maps Dataset
 
 Each image in the dataset is in JPEG format with 1200px * 600px dimensions, containing satellite image with its correspondng map. A sample image has been shown below. 
+<p align="center">
+  <img src="./images/sample.jpg">
+</p>
 
-<img align="center" src="./images/sample.jpg" alt="Sample Image">
+
 
 Sample after splitting the raw image into seperate  "Satellite" and corresponding "map" images. 
-
 ![Sample after splitting Image](./images/plotaftersplit.png)
 
 
