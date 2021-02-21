@@ -33,4 +33,7 @@ Pix2pix architecture uses Unet architecture as a Generator and PatchGAN as a Dis
 
 patchGAN architecture used as Discriminator as shown below.
 
-![Discriminator(patchGAN)](./images/patchGAN.svg)
+<p align="center">
+  ![Discriminator(patchGAN)](./images/patchGAN.svg)
+</p>
+
