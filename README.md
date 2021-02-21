@@ -16,7 +16,10 @@ Each image in the dataset is in JPEG format with 1200px * 600px dimensions, cont
 
 
 Sample after splitting the raw image into seperate  "Satellite" and corresponding "map" images. 
-![Sample after splitting Image](./images/plotaftersplit.png){ width=50% }
+<p align="center">
+  <img src="./images/plotaftersplit.png" width=60% height=60% >
+</p>
+
 
 
 ## Architectural Details
